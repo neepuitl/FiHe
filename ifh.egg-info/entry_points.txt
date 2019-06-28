@@ -1,0 +1,3 @@
+[console_scripts]
+ifh = ifh.__main__:main
+

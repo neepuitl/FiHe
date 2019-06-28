@@ -1,0 +1,10 @@
+README.md
+setup.py
+ifh/__init__.py
+ifh/__main__.py
+ifh/remove_duplication.py
+ifh.egg-info/PKG-INFO
+ifh.egg-info/SOURCES.txt
+ifh.egg-info/dependency_links.txt
+ifh.egg-info/entry_points.txt
+ifh.egg-info/top_level.txt
