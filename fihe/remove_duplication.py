@@ -60,6 +60,6 @@ def copy_file(source_file: str, target_dir: str) -> None:
 
 def remove_duplicates(file_duplicates: dict, target_dir: str) -> None:
     for _, value in file_duplicates.items():
-        print("# original file: {0}".format(value[0]))
+        print("** File that has not been removed: {0} **".format(value[0]))
         for filepath in value[1:]:
             copy_file(filepath, target_dir)
