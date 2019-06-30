@@ -1,11 +1,11 @@
 from setuptools import setup, find_packages
 
 setup(
-    name = "ifh",
+    name = "fihe",
     version = "0.0.1",
     keywords = ("file deduplication"),
-    description = "ITL File Helper",
-    long_description = "ITL File Helper",
+    description = "File Helper",
+    long_description = "File Helper",
     license = "MIT Licence",
 
     url = "https://github.com/neepuitl/ifh",
@@ -16,6 +16,6 @@ setup(
     include_package_data = True,
     platforms = "any",
     entry_points = {
-        'console_scripts': ["ifh=ifh.__main__:main"]
+        'console_scripts': ["fihe=fihe.__main__:main"]
     }
 )

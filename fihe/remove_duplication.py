@@ -1,6 +1,5 @@
 import hashlib
 import os
-import pprint
 
 
 def calcsha1(filepath: str) -> str:

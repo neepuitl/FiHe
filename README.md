@@ -15,7 +15,7 @@
 - 步骤1
     > python3 setup.py install
 
-- 步骤2
-    > ifh --root-dir="<absolute_root_dir>" --target-dir="<absolute_target_dir>"
+### 使用
+> fihe --root-dir="<absolute_root_dir>" --target-dir="<absolute_target_dir>"
 
-    **注意**：`root-dir`是你将要进行文件去重复的目录，`target-dir`是重复文件将要移动到的目标目录。
+**注意**：`root-dir`是你将要进行文件去重复的目录，`target-dir`是重复文件将要移动到的目标目录。
