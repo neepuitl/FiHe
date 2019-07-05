@@ -22,15 +22,18 @@
 - 查看重复文件
 
     > fihe dls --root-dir="<absolute_root_dir>"
+    
     **注意**：`root-dir`是你查看重复文件的根目录。
 
 - 去除重复文件
     
     > fihe drm --root-dir="<absolute_root_dir>" --target-dir="<absolute_target_dir>"
+    
     **注意**：`root-dir`是你将要进行文件去重复的目录，`target-dir`是重复文件将要移动到的目标目录。
 
 ### 3.3. 编码转换
 - 图片编码转换
 
     > fihe its --file-path="<absolute_file_path>"
+
     **注意**：`file-path`是你将要进行编码转换的图片地址。
