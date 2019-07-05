@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "fihe",
-    version = "0.0.1",
+    version = "0.0.2",
     keywords = ("file deduplication"),
     description = "File Helper",
     long_description = "File Helper",
